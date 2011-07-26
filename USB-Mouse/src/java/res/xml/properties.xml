@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/prop_item_clock" android:key="showClock" android:summary="@string/prop_item_clock_desc" android:defaultValue="true"></CheckBoxPreference>
+    <CheckBoxPreference android:title="@string/prop_item_btns" android:key="showButtons" android:summary="@string/prop_item_btns_desc" android:defaultValue="false"></CheckBoxPreference>
+    <CheckBoxPreference android:title="@string/prop_item_scrollbar" android:key="scrollBar" android:summary="@string/prop_item_scrollbar_desc" android:defaultValue="false"></CheckBoxPreference>
+    <CheckBoxPreference android:title="@string/prop_item_hidebar" android:key="hideBar" android:summary="@string/prop_item_hidebar_desc" android:defaultValue="true"></CheckBoxPreference>
+    <CheckBoxPreference android:title="@string/prop_item_nosleep" android:key="noSleep" android:summary="@string/prop_item_nosleep_desc" android:defaultValue="true"></CheckBoxPreference>
+    <CheckBoxPreference android:title="@string/prop_item_bright" android:key="lowBright" android:summary="@string/prop_item_bright_desc" android:defaultValue="true"></CheckBoxPreference> 
+    <ListPreference android:defaultValue="1" android:summary="@string/prop_item_style_desc" android:title="@string/prop_item_style" android:dialogTitle="@string/prop_item_style" android:key="style" android:entries="@array/styleList" android:entryValues="@array/styleKeyList">
+    </ListPreference><EditTextPreference
+    	android:key="kSwype"
+    	android:title="@string/prop_item_kswype"
+    	android:dialogTitle="@string/prop_item_kswype"
+    	android:defaultValue="1"
+    	android:summary="@string/prop_item_kswype_desc"
+    	android:maxLength="3"
+    	android:inputType="numberDecimal"
+    	android:numeric="decimal"
+    ></EditTextPreference>
+    <EditTextPreference
+    	android:key="kScroll"
+    	android:title="@string/prop_item_kscroll"
+    	android:dialogTitle="@string/prop_item_kscroll"
+    	android:defaultValue="1"
+    	android:summary="@string/prop_item_kscroll_desc"
+        android:maxLength="3" android:inputType="numberDecimal" android:numeric="decimal"></EditTextPreference>
+    
+</PreferenceScreen>

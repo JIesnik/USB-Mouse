@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_title">О программе</string>
+    
+    <string name="app_name">USB Mouse</string>
+    <string name="app_version">0.4</string>
+    
+ 	<string name="btn_ok">OK</string>
+ 	
+ 	
+ 	<string name="prop_item_clock">Показывать часы</string>
+    <string name="prop_item_clock_desc">Показывать часы  правом нижнем углу тачпада</string>
+    
+    <string name="prop_item_btns">Показывать кнопки</string>
+    <string name="prop_item_btns_desc">Показывать правую и левую кнопки</string>
+    
+    <string name="prop_item_scrollbar">Показывать скроллбар</string>
+    <string name="prop_item_scrollbar_desc">Показывать полосу прокрутки в правой части</string>
+    
+    <string name="prop_item_nosleep">Не отключать экран</string>
+    <string name="prop_item_nosleep_desc">Не блокировать экран</string>
+    
+    <string name="prop_item_bright">Минимальная подсветка</string>
+    <string name="prop_item_bright_desc">Уменьшать подсветку</string>
+    
+    <string name="prop_item_hidebar">Скрывать полосу уведомлений</string>
+    <string name="prop_item_hidebar_desc">Не показывать полосу уведомлений</string>
+    
+    <string name="prop_item_kswype">Скорость курсора</string>
+    <string name="prop_item_kswype_desc">Коэффициент скорости движения указателя</string>
+    
+    <string name="prop_item_kscroll">Скорость прокрутки</string>
+    <string name="prop_item_kscroll_desc">Коэффициент скорости прокрутки</string>
+    
+    <string name="prop_item_style">Фон тачпада</string>
+    <string name="prop_item_style_desc">Выбор фона тачпада</string>
+    
+    <string name="menu_about">О</string>
+    <string name="menu_exit">Выход</string>
+    <string name="menu_properties">Настройки</string>
+</resources>
